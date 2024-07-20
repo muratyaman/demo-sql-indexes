@@ -1,0 +1,36 @@
+{
+  "name": "demo-sql-indexes",
+  "version": "1.0.0",
+  "description": "Effect of using unique indexes on sql database performance",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratyaman/demo-sql-indexes.git"
+  },
+  "keywords": [
+    "sql",
+    "database",
+    "index",
+    "indexes",
+    "unique",
+    "primary",
+    "key"
+  ],
+  "author": "Haci Murat Yaman",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/muratyaman/demo-sql-indexes/issues"
+  },
+  "homepage": "https://github.com/muratyaman/demo-sql-indexes#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "hyper-express": "^6.16.4",
+    "knex": "^3.1.0",
+    "mysql2": "^3.10.3",
+    "pg": "^8.12.0"
+  }
+}
